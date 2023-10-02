@@ -1,0 +1,86 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Java/Spring specific
+/target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.properties
+*.sql
+*.xml
+
+# IDEs and editors
+/.idea/
+*.ids
+*.orig
+*.bak
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.vs/
+*.project
+*.settings/
+*.metadata/
+*.classpath
+*.factorypath
+
+# macOS
+.DS_Store
+
+# React specific
+/node_modules/
+/build/
+.npmrc
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Security - Be especially cautious with these, they may contain sensitive data
+.keystore
+.truststore
+*.p12
+*.jks
+*.pem
+*.key
+
